@@ -1,0 +1,109 @@
+* {
+    margin: 15px 3px;
+}
+
+@media only screen and (max-width: 812px) {
+    * {
+        margin: 15px 0;
+    }
+}
+
+#main {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    padding: 0 10px;
+}
+
+#title {
+    padding: 35px 0;
+    margin-bottom: -48px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#title p {
+    margin-top: 23px;
+}
+
+#img-div {
+    background-color: white;
+    padding-bottom: 2px;
+}
+
+#image {
+    width: 79%;
+}
+
+@media only screen and (max-width: 812px) {
+    #image {
+        width: 95%;
+    }
+}
+
+#img-caption {
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 812px) {
+    #img-caption {
+        padding: 0 20px;
+    }
+}
+
+#tribute-info {
+    margin-top: 50px;
+}
+
+ul {
+    text-align: left;
+    max-width: 563px;
+    display: inline-block;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+.tribute-years {
+    font-weight: bold;
+    margin-left: -3px;
+}
+
+ul li p {
+    line-height: 25px;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 563px;
+    text-align: left;
+    margin: auto;
+}
+
+@media only screen and (max-width: 375px) {
+    blockquote {
+        margin: 0 10px;
+    }
+}
+
+blockquote p {
+    margin: 0 0 18px 0;
+}
+
+footer {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#tribute-link {
+    color: #74638F;
+}
+
+#tribute-link:active {
+    color: #74638F;
+}
